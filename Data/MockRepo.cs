@@ -2,7 +2,7 @@ using CommandAPI.Models;
 
 namespace CommandAPI.Data;
 
-public class MockCommandRepo : ICommandRepo
+public class MockRepo : ICommandRepo
 {
     public IEnumerable<Command> GetAllCommands()
     {
